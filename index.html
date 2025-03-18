@@ -16,9 +16,6 @@
     <link rel="icon" type="image/ico" href="icon.png"/>
 	
 <!-- Scripts -->
-
-	<!-- jQuery -->	
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> <script src = "./functions.js"></script>
 	
 <!-- Styles -->	
 	<style type="text/css">
@@ -93,7 +90,7 @@
 
 	</style>
 		<script>
-		$(document).ready(function(){
+			document.addEventListener('DOMContentLoaded', function(){
 					var canvas = document.getElementById("canvas");
 					var ctx = canvas.getContext('2d');
 					var player = new Player (5,0,10, ctx, 0);
