@@ -4,11 +4,8 @@
 		<title>Puzzle Three</title>
     <link rel="icon" type="image/ico" href="icon.png"/>
 
-		<!-- jQuery Link -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
 		<!-- External JS -->
-		<script src="./functions.js"></script>
+		<script src="functions.js"></script>
 
 		<!-- CSS Styling -->
 		<style>
@@ -74,10 +71,10 @@
 
 		<script>
             
-			$(document).ready(function(){
+			document.addEventListener('DOMContentLoaded', function(){
                 // var old = new Array();
 
-                $(document).keydown(function(event){
+                document.addEventListener('keydown', function(event){
 				    event.preventDefault();
 
 				    // left
